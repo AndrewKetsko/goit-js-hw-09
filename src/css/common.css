@@ -16,3 +16,23 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.disable {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: .5;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  }
+
+  button:first-of-type {
+background-color: green;
+  }
+
+  button:last-of-type {
+    background-color: red;
+  }
